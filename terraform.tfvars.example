@@ -1,0 +1,10 @@
+subscription_id               = "00000000-0000-0000-0000-000000000000"
+location                      = "eastus"
+name_prefix                   = "mdpdemo"
+pool_name                     = "replace-with-unique-pool-name"
+storage_account_name          = "replacewithuniquestorage"
+azure_devops_organization_url = "https://dev.azure.com/your-organization"
+azure_devops_projects         = ["Your existing project"]
+maximum_concurrency           = 1
+vm_size                       = "Standard_D2ads_v5"
+restart_after_provisioning     = false
